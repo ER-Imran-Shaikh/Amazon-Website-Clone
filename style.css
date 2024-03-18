@@ -1,0 +1,621 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.NavBar { 
+    height: 60px;
+    background-color: #131A22;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;                
+}
+
+.NavLeft{
+        width: 215px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+.NavLogo { 
+    width: 113px;
+    height: 41px;
+    background-image: url("logo.png");
+    background-size: 105px 32px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 12px;
+} 
+
+.Border { 
+    border: 2px solid transparent;
+}
+
+.Border:hover { 
+    border: 2px solid white;
+}
+
+.Address { 
+    width: 90px;
+    height: 60px;
+}
+
+.PostLeft { 
+    height: 50px;
+    margin: 5px 0px 5px 0px;
+    padding: 0px 9px;
+    display: flex;
+    align-items: center;
+}
+
+#AddFirst { 
+            height: 12px;
+            color: #CCCCCC;
+            font-size: 0.75rem;
+          
+}   
+
+#AddSecond { 
+            height: 16px;
+            color: #FFFFFF;
+            font-size: 1rem;
+            font-weight: 600;           
+}
+
+.AddressIcon { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AddText { 
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    padding-bottom: 8px;
+    padding-left: 3px;
+}
+
+.NavSearch { 
+    width: 850px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #FEBD69;
+    
+}
+
+.NavSearch:hover { 
+    border: 3px solid #FEBD69;
+}
+
+.SearchSelect { 
+        width: 50px;
+        height: 40px;
+        background-color: #E6E6E6;
+        color: #0F1111;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+        
+    
+}
+
+.SearchInput { 
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    border: none;
+    
+}
+
+.SearchIcon { 
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.05rem;
+    color: #0F1111;
+}
+
+.Language { 
+    width: 74px;
+    height: 50px;
+    padding: 2px 9px 1px ;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content:center;
+}
+
+#LangFlag { 
+    width: 21px;
+    height: 20px;
+    background-image: url("united-states.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    margin-top: 16px;
+    padding-bottom: 10px;
+}
+
+#LangName { 
+    font-size: 14px;
+    padding-left: 5px;
+    padding-top: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+#Down { 
+    font-size: 0.5rem;
+}
+
+.Accounts { 
+    width: 140px;
+    height: 50px;
+    padding: 0px 9px 1px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+#Hello { 
+    font-size: 12px;
+    font-weight: 400;
+   
+}
+
+#AccountList { 
+    font-size: 14px;
+    font-weight:600;
+    padding-bottom: 10px;
+}
+
+
+.Orders { 
+    width: 80px;
+    height: 50px;
+    padding: 0px 9px 1px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+#Text1 { 
+    font-size: 12px;
+    font-weight: 400;
+   
+}
+
+#Text2 { 
+    font-size: 14px;
+    font-weight:600;
+    padding-bottom: 10px;
+}
+
+.cart { 
+    width: 80px;
+    height: 50px;
+    padding: 0px 9px 1px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#CartIcon {
+    font-size: 26px;
+}
+
+#CartText { 
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.Panel { 
+    height: 40px;
+    display: flex;
+    background-color: #232F3E;
+    color: white;
+    align-items: center;
+   
+    padding: 0px 20px;
+    font-size: 14px;
+}
+
+#PanelIcon { 
+   
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.PanelOptions { 
+    display: flex;
+    padding: 8px 9px;
+}
+
+#p1
+ { 
+    padding: 8px 9px;
+ }
+
+ #p2
+ { 
+    padding: 8px 9px;
+ }
+
+ #p3
+ { 
+    padding: 8px 9px;
+ }
+    
+ #p4
+ { 
+    padding: 8px 9px;
+ }
+
+ #p5
+ { 
+    padding: 8px 9px;
+ }
+
+ .Hero { 
+    background-image: url("Feed1.jpg");
+    height: 750px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 10px;
+    background-color: #E2E7E6;
+ }
+ 
+ .HeroText { 
+    width: 1425px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 14px;
+    margin: 0px 20px 25px;
+ }
+
+ #HeroLink { 
+    text-decoration: none;
+    color: #007185;
+    font-size: 14px;
+ }
+
+.Parent { 
+    width: 1450px;
+    height: 500px;
+    display: flex;
+    flex-direction:column;
+}
+
+.Shop { 
+    width: 1500px;
+        display: flex;
+        justify-content: space-evenly;
+}
+.box { 
+    width: 23%;
+    height: 380px;
+    background-color: white;
+    display: inline-block;
+    padding: 20px 0px 15px;
+}
+
+h2 { 
+    height: 28px;
+    font-size: 21px;
+    color: #0F1111;
+    margin: 0px 0px 10px;
+    padding: 0px 20px;
+}
+
+#Box1img { 
+    width: 300px;
+    height: 280px;
+    background-image: url("box1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 20px 33px;
+
+}
+
+#SeeMore
+ { 
+    font-size: 13px;
+    color: #007185;
+    padding: 0px 20px;
+ }
+ #SeeMore :hover { 
+    color :red;
+ }
+
+ #Box2img { 
+    width: 300px;
+    height: 280px;
+    background-image: url("box2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 20px 33px;
+}
+
+#Box3img { 
+    width: 300px;
+    height: 280px;
+    background-image: url("box3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 20px 33px;
+}
+
+#Box4img { 
+    width: 300px;
+    height: 280px;
+    background-image: url("box4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 20px 33px;
+}
+
+.Shop2 { 
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 10px;
+    background-color: #E2E7E6;
+    justify-content: space-evenly;
+}
+
+#Box5img { 
+    width: 300px;
+    height: 280px;
+    background-image: url("box5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 20px 33px;
+}
+
+#Box6img { 
+    width: 300px;
+    height: 280px;
+    background-image: url("box6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 20px 33px;
+}
+
+#Box7img { 
+    width: 300px;
+    height: 280px;
+    background-image: url("box7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 20px 33px;
+}
+
+#Box8img { 
+    width: 300px;
+    height: 280px;
+    background-image: url("box8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 20px 33px;
+}
+
+.ScrollBar { 
+    width: 1460px;
+    height: 300px;
+    padding: 10px 20px;
+    margin: 0px 0px 0px 10px;
+    background-color: #E2E7E6;
+}
+
+.ScrollBox { 
+    width: 1450px;
+    height: 260px;
+    margin: 10px 0px 0px 5px;
+    background-color: white;
+ 
+}
+
+#ScrollText { 
+        font-size: 21px;
+        color: #0F1111;
+        padding: 20px 0px 0px 20px;
+        font-weight: 550;
+}
+
+.ScrollList { 
+    
+        display: flex;
+ 
+    
+}
+
+#ScrollItem1 { 
+    width: 200px;
+    height: 200px;
+    padding: 14px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: none;
+    background-image: url("box1.jpg");
+ 
+}
+
+#ScrollItem2 { 
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-image: url("box2.jpg");
+}
+
+#ScrollItem3 { 
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-image: url("box3.jpg");
+}
+
+#ScrollItem4 { 
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-image: url("box4.jpg");
+}
+
+#ScrollItem5 { 
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-image: url("box5.jpg");
+}
+
+#ScrollItem6 { 
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-image: url("box6.jpg");
+}
+
+#ScrollItem7 { 
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-image: url("box7.jpg");
+}
+
+#ScrollItem8 { 
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-image: url("box8.jpg");
+}
+
+footer { 
+    margin-top: 15px;
+}
+.FootPanel1 { 
+    font-size: 13px;
+    font-weight: 600;
+    height: 50px;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FootPanel2 { 
+    padding: 40px 0px;
+    height: 250px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+}
+
+h3{ 
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.UL1 { 
+    height:190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #dddddd;
+}
+
+.UL2 { 
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #dddddd;
+}
+
+.UL3 { 
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #dddddd;
+}
+
+.UL4 { 
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #dddddd;
+}
+
+.FootPanel3 { 
+    height: 70px;
+    background-color: #222f3d;
+    color: white;
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#FootLogo { 
+    background-image: url("logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.FootPanel4 { 
+    background-color: #131A22;
+    color: #dddddd;
+    font-size: 12px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.Pages { 
+    display: flex;
+    justify-content: center;
+}
+.Copyright { 
+    padding-top:5px ;
+    text-align: center;
+}
